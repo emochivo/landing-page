@@ -12,7 +12,7 @@ h1 {
 
 .header {
     margin: 0;
-    padding: 10px 300px;
+    padding: 10px 100px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -41,7 +41,7 @@ h1 {
 
 .intro {
     margin: 0;
-    padding: 70px 300px;
+    padding: 70px 100px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -87,7 +87,7 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 50px 400px;
+    margin: 50px 200px;
     font-size: 20px;
 }
 
@@ -120,7 +120,7 @@ h1 {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 50px 400px;
+    padding: 50px 100px;
     text-align: right;
 }
 
@@ -142,8 +142,8 @@ h1 {
 .bottom {
     background-color: #3882f6;
     color: white;
-    padding: 50px 230px;
-    margin: 100px 250px;
+    padding: 50px 130px;
+    margin: 100px 150px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
