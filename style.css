@@ -1,7 +1,8 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    /* min-height: 100vh; */
+    justify-content: space-between;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -11,7 +12,7 @@ h1 {
 
 .header {
     margin: 0;
-    padding: 10px 200px;
+    padding: 10px 300px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -40,7 +41,7 @@ h1 {
 
 .intro {
     margin: 0;
-    padding: 70px 200px;
+    padding: 70px 300px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -81,8 +82,12 @@ h1 {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 50px 250px;
+    margin: 50px 400px;
     font-size: 20px;
 }
 
@@ -95,7 +100,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     margin: 50px 50px;
-    gap: 70px;
+    gap: 40px;
 }
 
 .images-category {
@@ -115,7 +120,7 @@ h1 {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 50px 250px;
+    padding: 50px 400px;
     text-align: right;
 }
 
@@ -137,8 +142,25 @@ h1 {
 .bottom {
     background-color: #3882f6;
     color: white;
-    padding: 50px 100px;
-    margin: 100px 200px;
+    padding: 50px 230px;
+    margin: 100px 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.bottom button {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 150px;
+    height: max-content;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
 
 .footer {
@@ -146,4 +168,5 @@ h1 {
     color: white;
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
