@@ -14,7 +14,7 @@ h1 {
 
 .header {
     margin: 0;
-    padding: 10px 50px;
+    padding: 10px 150px;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -43,7 +43,7 @@ h1 {
 
 .intro {
     margin: 0;
-    padding: 70px 50px;
+    padding: 70px 150px;
     background-color: #1f2937;
     color: white;
     display: flex;
